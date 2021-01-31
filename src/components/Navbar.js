@@ -44,7 +44,7 @@ const Navbar = ({ post, dispatch, getSearch }) => {
                     <div className="row">
                         <div className="col-12">
                             <div className="header__search-content">
-                                <input onChange={handleChange} name='search' type="text" placeholder="Search for name" />
+                                <input className="text-dark" onChange={handleChange} name='search' type="text" placeholder="Search names here" />
                                 <button type="button">search</button>
                             </div>
                         </div>

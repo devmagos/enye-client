@@ -1,5 +1,5 @@
 *{
-  margin: 0
+  margin: 0;
 }
 
 html {
@@ -54,7 +54,7 @@ select:focus {
 ==============================*/
 .header {
   display: block;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -69,6 +69,7 @@ select:focus {
   padding: 0 15px;
   background-color: #fff;
   width: 140px;
+  text-decoration: none;
 }
 
 .header__search-content {
@@ -113,8 +114,10 @@ select:focus {
 }
 
 .header__search-content button:hover {
+  background: #23B5D3;
   color: #fff;
   opacity: 1;
+  cursor: pointer;
 }
 
 @media (min-width: 576px) {
@@ -168,4 +171,21 @@ select:focus {
 }
 @-webkit-keyframes spin {
   to { -webkit-transform: rotate(360deg); }
+}
+h2 {
+  font-size: 18px;
+  color: #23B5D3;
+}
+li {
+  display: inline-flex;
+  list-style-type: none;
+  text-align: center;
+}
+.page-link {
+  color: #fff;
+  border: 1px dotted palevioletred;
+  background-color: pink;
+  border-radius: 5px;
+  margin: 2px;
+  height: 20px;
 }

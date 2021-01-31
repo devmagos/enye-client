@@ -1,5 +1,4 @@
 import { useState } from 'react'
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar'
 import { connect } from 'react-redux'
 import Page from './components/Page';
@@ -27,14 +26,6 @@ function App({ dispatch, post, loading, err }) {
     console.log(searchInput)
     return searchInput
   }
-
-  // const searchResult = () => {
-  //   post?.map((each, i) => {
-  //     if (updateInput.search.length > 0 && each.Firstname === updateInput.search) {
-  //       return <h2 className="text-light" key={i + 1}>{each.FirstName} {each.LastName}</h2>
-  //     }
-  //   })
-  // }
 
 
   console.log()

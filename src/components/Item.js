@@ -3,8 +3,6 @@ import { connect } from 'react-redux'
 
 const Item = ({ movie, id, nomination, dispatch, disable, block }) => {
 
-    console.log(disable)
-    // const [disabled, setDisabled] = useState(false)
 
     const handleClick = (e) => {
         console.log(e.target.id)
